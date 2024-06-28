@@ -1,0 +1,70 @@
+/* style.css */
+
+.weather-app {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.weather-details {
+    font-size: 18px;
+    color: #333;
+}
+
+.weather-details p {
+    margin-bottom: 10px;
+}
+
+.weather-details span {
+    font-weight: bold;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #3e8e41;
+}
+
+.hourly-forecast {
+    margin-top: 20px;
+}
+
+.hourly-forecast h2 {
+    margin-bottom: 10px;
+}
+
+.hourly-forecast li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.hourly-forecast li span {
+    font-weight: bold;
+}
